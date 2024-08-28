@@ -17,12 +17,12 @@ cnn_glove_train.py————CNN-gloveEmb模型训练代码，含构建glove嵌
 rnn_word_infer.py————GRU-wordEmb-bi模型以及变体推理代码  
 cnn_glove_infer.py————CNN-gloveEmb模型推理代码，含构建glove嵌入  
 utils_wdl.py————构建词表与生成输入张量数据集代码  
-rnn_rand_predict.py  RNN使用随机embedding初始化 预测脚本    
-rnn_rand_train.py  RNN使用随机embedding初始化 训练脚本   
-rnn_glove_predict.py  RNN使用Glove初始化 预测脚本  
-rnn_glove_train.py  RNN使用Glove初始化 训练脚本   
-bert_predict.py bert预测脚本 
-bert_train.py bert训练脚本  
+rnn_rand_predict.pyRNN————使用随机embedding初始化 预测脚本    
+rnn_rand_train.py————RNN使用随机embedding初始化 训练脚本   
+rnn_glove_predict.py————RNN使用Glove初始化 预测脚本  
+rnn_glove_train.py————RNN使用Glove初始化 训练脚本   
+bert_predict.py————bert预测脚本 
+bert_train.py————bert训练脚本  
 ### 模型参数
 cnn_word_model.pt————CNN-wordEmb完整模型  
 cnn_rand_model.pt————CNN-randEmb完整模型  
@@ -30,11 +30,11 @@ cnn_glove_model_pre.pth————CNN-gloveEmb模型参数
 rnn_word_model.pth————GRU-wordEmb-bi模型参数  
 rnn_word_model64_r.pth————RNN-wordEmb-bi模型参数  
 rnn_word_model64_single.pth————GRU-wordEmb-one模型参数  
-rnn_rand_model 随机embedding初始化模型参数    
-rnn_glove_model Glove初始化模型参数  
+rnn_rand_model————随机embedding初始化模型参数    
+rnn_glove_model————Glove初始化模型参数  
 
 ## 使用  
-`python 训练文件.py`
+`python 训练文件.py`  
 `python 推理文件.py`
 
 ## 数据集
