@@ -38,7 +38,8 @@ rnn_glove_model————Glove初始化模型参数
 `python 推理文件.py`
 
 ## 数据集
-数据集采用Kaggle Sentiment Analysis on Movie Reviews提供的训练集与测试集  [https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews/data](https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews/data)
+数据集采用Kaggle Sentiment Analysis on Movie Reviews提供的训练集与测试集  
+[https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews/data](https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews/data)
 
 ## 模型参数
 模型参数托管于GitHub  
